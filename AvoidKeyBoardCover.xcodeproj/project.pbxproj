@@ -14,6 +14,9 @@
 		3B612E021EFF589F0080046E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B612E001EFF589F0080046E /* LaunchScreen.storyboard */; };
 		3B612E0D1EFF589F0080046E /* AvoidKeyBoardCoverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B612E0C1EFF589F0080046E /* AvoidKeyBoardCoverTests.swift */; };
 		3B612E181EFF589F0080046E /* AvoidKeyBoardCoverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B612E171EFF589F0080046E /* AvoidKeyBoardCoverUITests.swift */; };
+		3B612E261EFF5A540080046E /* TestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B612E251EFF5A540080046E /* TestTableViewCell.swift */; };
+		3B612E281EFF5BEB0080046E /* TempTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B612E271EFF5BEB0080046E /* TempTableViewController.swift */; };
+		3B612E2A1EFF66E50080046E /* TempViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B612E291EFF66E50080046E /* TempViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		3B612E131EFF589F0080046E /* AvoidKeyBoardCoverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvoidKeyBoardCoverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B612E171EFF589F0080046E /* AvoidKeyBoardCoverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvoidKeyBoardCoverUITests.swift; sourceTree = "<group>"; };
 		3B612E191EFF589F0080046E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B612E251EFF5A540080046E /* TestTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTableViewCell.swift; sourceTree = "<group>"; };
+		3B612E271EFF5BEB0080046E /* TempTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempTableViewController.swift; sourceTree = "<group>"; };
+		3B612E291EFF66E50080046E /* TempViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				3B612DFE1EFF589F0080046E /* Assets.xcassets */,
 				3B612E001EFF589F0080046E /* LaunchScreen.storyboard */,
 				3B612E031EFF589F0080046E /* Info.plist */,
+				3B612E251EFF5A540080046E /* TestTableViewCell.swift */,
+				3B612E271EFF5BEB0080046E /* TempTableViewController.swift */,
+				3B612E291EFF66E50080046E /* TempViewController.swift */,
 			);
 			path = AvoidKeyBoardCover;
 			sourceTree = "<group>";
@@ -193,6 +202,7 @@
 				TargetAttributes = {
 					3B612DF31EFF589F0080046E = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = NYQACL8B77;
 						ProvisioningStyle = Automatic;
 					};
 					3B612E071EFF589F0080046E = {
@@ -260,7 +270,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B612DFA1EFF589F0080046E /* ViewController.swift in Sources */,
+				3B612E2A1EFF66E50080046E /* TempViewController.swift in Sources */,
+				3B612E281EFF5BEB0080046E /* TempTableViewController.swift in Sources */,
 				3B612DF81EFF589F0080046E /* AppDelegate.swift in Sources */,
+				3B612E261EFF5A540080046E /* TestTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +427,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NYQACL8B77;
 				INFOPLIST_FILE = AvoidKeyBoardCover/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.soulkimapp.AvoidKeyBoardCover;
@@ -426,6 +440,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NYQACL8B77;
 				INFOPLIST_FILE = AvoidKeyBoardCover/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.soulkimapp.AvoidKeyBoardCover;
@@ -507,6 +522,7 @@
 				3B612E1E1EFF589F0080046E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B612E1F1EFF589F0080046E /* Build configuration list for PBXNativeTarget "AvoidKeyBoardCoverTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +531,7 @@
 				3B612E211EFF589F0080046E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B612E221EFF589F0080046E /* Build configuration list for PBXNativeTarget "AvoidKeyBoardCoverUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +540,7 @@
 				3B612E241EFF589F0080046E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
