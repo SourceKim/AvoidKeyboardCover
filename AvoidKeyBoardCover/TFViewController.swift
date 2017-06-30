@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TempViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
+class TFViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
     var tbView : UITableView!
 
@@ -25,7 +25,7 @@ class TempViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
         tbView = UITableView(frame: theFrame, style: .plain)
         tbView.delegate = self
         tbView.dataSource = self
-        tbView.register(TestTableViewCell.self, forCellReuseIdentifier: "id")
+        tbView.register(TextFieldTableViewCell.self, forCellReuseIdentifier: "id")
         self.view.addSubview(tbView)
         
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow(noti:)), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
